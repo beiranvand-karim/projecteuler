@@ -6,19 +6,19 @@
  */
 
 let sum1 = 0
-let x = 1;
+let x = 1
 while (x < 334) {
-    sum1 += (3 * x);
-    x += 1;
+    sum1 += (3 * x)
+    x += 1
 }
 
-let i = 1;
-let sum2 = 0;
+let i = 1
+let sum2 = 0
 while (i < 200) {
     if (i % 3 !== 0) {
-        sum2 += (i * 5);
+        sum2 += (i * 5)
     }
-    i += 1;
+    i += 1
 }
 
-console.log('summation', sum1 + sum2)
+console.log("summation", sum1 + sum2)

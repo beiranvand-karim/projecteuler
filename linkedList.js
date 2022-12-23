@@ -19,7 +19,7 @@ class LinkedList {
         let size = 0
         let temp = list.head
         while (temp instanceof ListNode) {
-            size++;
+            size++
             temp = temp.next
         }
         return size
@@ -52,6 +52,6 @@ node1.next = node2
 
 const list = new LinkedList(node1)
 
-console.log('size', list.size())
-console.log('first', list.getFirst())
-console.log('last', list.getLast())
+console.log("size", list.size())
+console.log("first", list.getFirst())
+console.log("last", list.getLast())
