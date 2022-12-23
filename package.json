@@ -1,0 +1,7 @@
+{
+  "name": "projecteuler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:beiranvand-karim/projecteuler.git",
+  "license": "MIT"
+}
